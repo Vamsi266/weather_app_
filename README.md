@@ -5,7 +5,7 @@ A modern and responsive weather application that provides real-time weather info
 ---
 
 ## 📸 Preview
-<img width="1346" height="654" alt="image" src="https://github.com/user-attachments/assets/30b45dd8-fbc8-4c53-aa79-7323a803a781" />
+<img width="1352" height="762" alt="image" src="https://github.com/user-attachments/assets/8b7132f4-c361-4ea8-b680-628b88508e6a" />
 
 
 ---

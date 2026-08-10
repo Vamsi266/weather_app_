@@ -62,7 +62,7 @@ WeatherVista/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/WeatherVista.git
+git clone https:https://github.com/Vamsi266/weather_app_.git
 ```
 
 ### Open the Project

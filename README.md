@@ -1,129 +1,174 @@
-# 🌤️ Weather App
+# 🌤️ WeatherVista
+
+A modern and responsive weather application that provides real-time weather information for any city around the world using the **OpenWeather API**. Built with **HTML**, **CSS**, and **Vanilla JavaScript**, this project demonstrates API integration, asynchronous JavaScript, and responsive UI design.
+
+---
+
+## 📸 Preview
 
 
-A simple and responsive weather application built with HTML, CSS, and JavaScript
-The app allows users to search for a city and view its current weather information, including temperature, humidity, wind speed, and weather conditions.
-
-<img width="1363" height="662" alt="image" src="https://github.com/user-attachments/assets/ba9ade02-ec7a-44ee-8413-e9213300bd2e" />
-
+---
 
 ## ✨ Features
 
 - 🔍 Search weather by city name
-- 🌡️ Display current temperature in Celsius
-- 💧 Display humidity
-- 💨 Display wind speed
-- ☁️ Display weather conditions with dynamic icons
-- ❌ Show an error message for invalid city names
-- 📱 Clean and responsive user interface
-- ⚡ Fetches real-time weather data from the OpenWeather API
+- 🌍 Real-time weather information
+- 🌡️ Current temperature in Celsius
+- 💧 Humidity percentage
+- 🌬️ Wind speed (km/h)
+- ☁️ Dynamic weather icons based on current conditions
+- 📱 Responsive user interface
+- ⚡ Fast API data fetching using Fetch API
+- ❌ Error handling for invalid city names
+- 🎨 Clean and modern glassmorphism-inspired design
 
-## 🛠️ Technologies Used
+---
+
+## 🛠️ Built With
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (ES6)
 - OpenWeather API
+
+---
 
 ## 📂 Project Structure
 
-```text
-weather_app_/
-│
-├── images/
-│   ├── clear.png
-│   ├── clouds.png
-│   ├── drizzle.png
-│   ├── humidity.png
-│   ├── mist.png
-│   ├── rain.png
-│   ├── search.png
-│   └── wind.png
+```
+WeatherVista/
 │
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+│
+├── background-image.png
+├── clear.png
+├── clouds.png
+├── drizzle.png
+├── rain.png
+├── mist.png
+├── snow.png
+├── humidity.png
+├── wind.png
+├── search.png
+└── images.png
+```
 
-🚀 How to Run
+---
 
-1. Clone the repository
-git clone https://github.com/Vamsi266/weather_app_.git
-2. Open the project
+## 🚀 Getting Started
 
-Open the project folder in Cursor, Visual Studio Code, or another code editor.
+### Clone the Repository
 
-3. Run the application
+```bash
+git clone https://github.com/your-username/WeatherVista.git
+```
 
-You can open index.html directly in your browser, or use the Live Server extension in VS Code/Cursor.
+### Open the Project
 
-Using Live Server:
+Simply open the project folder in **VS Code** and run `index.html` using **Live Server**.
 
-Open index.html
-Right-click inside the file
-Select Open with Live Server
+---
 
-🔑 API Setup
+## 🔑 API Configuration
 
-This project uses the OpenWeather API to retrieve weather data.
+This project uses the **OpenWeather API**.
 
-The JavaScript application sends a request to the OpenWeather current weather endpoint using the searched city name.
+### Step 1
 
-Before using the project, create your own API key from OpenWeather and add it to script.js.
+Create a free account at:
 
-Example:
+https://openweathermap.org/
 
-const apiKey = "YOUR_API_KEY";
+### Step 2
 
-Then use the API key in the weather request.
+Generate your API key.
 
-⚠️ Do not publish your real API key in a public GitHub repository.
+### Step 3
 
-For a production application, the API key should be protected using a backend service or another secure approach.
+Open `script.js`.
 
-🌦️ How It Works
+Replace:
 
-Enter a city name in the search box.
-Click the search button.
-The application sends a request to the OpenWeather API.
-Weather information is returned for the selected city.
-The application displays:
-City name
-Temperature
-Humidity
-Wind speed
-Weather condition icon
+```javascript
+const apikey = "YOUR_API_KEY";
+```
 
-If the city cannot be found, an Invalid city name message is displayed.
+with your own API key.
 
-🎨 UI
+---
 
-The application uses a card-based interface with:
+## ⚙️ How It Works
 
-Dark background
-Gradient weather card
-City search input
-Weather condition icon
-Temperature display
-Humidity and wind information
+1. User enters a city name.
+2. JavaScript captures the input.
+3. Fetch API sends a request to the OpenWeather API.
+4. API returns JSON weather data.
+5. JavaScript extracts:
+   - City Name
+   - Temperature
+   - Humidity
+   - Wind Speed
+   - Weather Condition
+6. UI updates dynamically with the latest weather information.
+7. Weather icon changes according to the current weather condition.
 
-🔮 Future Improvements
+---
 
-Some possible improvements for the project:
+## 📊 Weather Information Displayed
 
-Add a 5-day weather forecast
-Add current location detection
-Add Celsius/Fahrenheit conversion
-Add loading animation
-Add more weather conditions
-Add weather background changes
-Add search using the Enter key
-Improve error handling
-Improve accessibility
-Hide the API key using a backend or environment variables
-👨‍💻 Author
+- City Name
+- Current Temperature
+- Weather Condition
+- Humidity
+- Wind Speed
 
-Vamsi
+---
 
-GitHub:
-https://github.com/Vamsi266
+## 💡 Technologies Demonstrated
+
+- DOM Manipulation
+- Async/Await
+- Fetch API
+- REST API Integration
+- JSON Parsing
+- Event Handling
+- Responsive Web Design
+- Dynamic UI Updates
+
+## 🔮 Future Improvements
+
+- 📍 Current location weather using Geolocation API
+- 🌅 Sunrise and sunset timings
+- 🌙 Dark/Light mode
+- 📅 5-Day Weather Forecast
+- ⏰ Hourly Forecast
+- 🌡️ Feels Like temperature
+- 🌧️ Rain probability
+- 💨 Air Quality Index (AQI)
+- ❤️ Save favorite cities
+- 🌎 Multi-language support
+- 📱 Progressive Web App (PWA)
+- 🌈 Animated weather backgrounds
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+- Working with REST APIs
+- Handling asynchronous JavaScript
+- Fetching and displaying live data
+- DOM manipulation
+- Error handling
+- Responsive UI development
+- API key management
+- 
+
+## 👨‍💻 Author
+
+**Mandala Vamsi**
+
+If you like this project, don't forget to ⭐ the repository!

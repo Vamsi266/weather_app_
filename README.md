@@ -44,7 +44,9 @@ weather_app_/
 ├── style.css
 ├── script.js
 └── README.md
+
 🚀 How to Run
+
 1. Clone the repository
 git clone https://github.com/Vamsi266/weather_app_.git
 2. Open the project
@@ -60,6 +62,7 @@ Using Live Server:
 Open index.html
 Right-click inside the file
 Select Open with Live Server
+
 🔑 API Setup
 
 This project uses the OpenWeather API to retrieve weather data.
@@ -79,6 +82,7 @@ Then use the API key in the weather request.
 For a production application, the API key should be protected using a backend service or another secure approach.
 
 🌦️ How It Works
+
 Enter a city name in the search box.
 Click the search button.
 The application sends a request to the OpenWeather API.
@@ -102,6 +106,7 @@ City search input
 Weather condition icon
 Temperature display
 Humidity and wind information
+
 🔮 Future Improvements
 
 Some possible improvements for the project:

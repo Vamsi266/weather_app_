@@ -1,6 +1,6 @@
 # 🌤️ WeatherVista
 
-A modern and responsive weather application that provides real-time weather information for any city around the world using the **OpenWeather API**. Built with **HTML**, **CSS**, and **Vanilla JavaScript**, this project demonstrates API integration, asynchronous JavaScript, and responsive UI design.
+A modern and responsive weather application that provides real-time weather information for any city around the world using the **OpenWeather API**. Built with **HTML**, **CSS**, and ** JavaScript**, this project demonstrates API integration, asynchronous JavaScript, and responsive UI design.
 
 ---
 

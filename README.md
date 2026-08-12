@@ -160,14 +160,7 @@ with your own API key.
 
 Through this project, I learned:
 
-- Working with REST APIs
-- Handling asynchronous JavaScript
-- Fetching and displaying live data
-- DOM manipulation
-- Error handling
-- Responsive UI development
-- API key management
-- 
+
 
 ### 👨‍💻 Author
 

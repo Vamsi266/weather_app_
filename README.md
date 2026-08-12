@@ -59,7 +59,7 @@ WeatherVista/
 
 ---
 
-## 🚀 Getting Started
+### 🚀 Getting Started
 
 ### Clone the Repository
 
@@ -156,7 +156,7 @@ with your own API key.
 
 ---
 
-## 📚 Learning Outcomes
+### 📚 Learning Outcomes
 
 Through this project, I learned:
 
@@ -169,7 +169,7 @@ Through this project, I learned:
 - API key management
 - 
 
-## 👨‍💻 Author
+### 👨‍💻 Author
 
 **Mandala Vamsi**
 

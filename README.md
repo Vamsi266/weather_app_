@@ -154,11 +154,6 @@ with your own API key.
 - 📱 Progressive Web App (PWA)
 - 🌈 Animated weather backgrounds
 
----
-
-### 📚 Learning Outcomes
-
-Through this project, I learned:
 
 
 
